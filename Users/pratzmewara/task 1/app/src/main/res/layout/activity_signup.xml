@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#212121"
+tools:context="com.example.corego.login.signup">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:textColor="#D50000"
+    android:textStyle="bold"
+    android:text="SIGN UP"
+    android:textSize="21dp"/>
+
+<EditText
+    android:id="@+id/user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textColorHint="#1DE9B6"
+    android:textColor="#D50000"
+    android:padding="20dp"
+    android:hint="Username"/>
+<EditText
+    android:id="@+id/email"
+    android:layout_marginTop="10dp"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="#1DE9B6"
+    android:textColor="#D50000"
+    android:hint="Email"/>
+
+<EditText
+    android:id="@+id/mob"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_marginTop="10dp"
+    android:textColorHint="#1DE9B6"
+    android:textColor="#D50000"
+    android:inputType="number"
+    android:hint="Mobile Number"/>
+
+<EditText
+    android:id="@+id/reg"
+    android:layout_marginTop="10dp"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="#1DE9B6"
+    android:textColor="#D50000"
+    android:hint="Registration Number"/>
+
+<EditText
+    android:id="@+id/pass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="10dp"
+    android:padding="20dp"
+    android:textColorHint="#1DE9B6"
+    android:textColor="#D50000"
+    android:hint="Password"
+    android:inputType="textPassword" />
+
+<Button
+    android:id="@+id/butt"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="140dp"
+    android:padding="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sign up"
+    android:background="#D50000"/>
+
+
+</LinearLayout>
+
