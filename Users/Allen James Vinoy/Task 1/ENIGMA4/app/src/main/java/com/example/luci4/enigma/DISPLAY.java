@@ -22,17 +22,21 @@ public class DISPLAY extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
 
+        namedisplay = (TextView) findViewById(R.id.nd);
+        passworddisplay = (TextView) findViewById(R.id.pd);
+        phonedisplay = (TextView) findViewById(R.id.pnd);
+
         catchname = getIntent().getExtras().getString("key");
         catchpassword = getIntent().getExtras().getString("key1");
         catchphone = getIntent().getExtras().getString("key2");
 
-        namedisplay.setTextSize(30.0f);
+        namedisplay.setTextSize(25.0f);
         passworddisplay.setTextSize(30.0f);
         phonedisplay.setTextSize(30.0f);
 
         namedisplay.setText(catchname);
         passworddisplay.setText(catchpassword);
-        phonedisplay.setText(catchpassword);
+        phonedisplay.setText(catchphone);
 
     }
 }
